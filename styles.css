@@ -1,0 +1,182 @@
+/* --- GLOBAL --- */
+
+body {
+  font-family: "Work Sans", sans-serif;
+  color: #14171f;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.section {
+  padding: 60px 0;
+}
+
+.section-heading-h2 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+/* --- NAVIGATION --- */
+.navigation {
+  width: 100%;
+  height: 80px;
+}
+
+.navigation-content {
+  height: 100%;
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.company-logo {
+  width: 165px;
+  height: 50px;
+}
+
+.nav-items-list {
+  display: flex;
+  gap: 50px;
+}
+
+.nav-item {
+  font-size: 18px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.disabled-nav-item {
+  cursor: not-allowed;
+}
+
+.cto-nav-item {
+  color: #f9995d;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* ---HEADER--- */
+
+
+.main-header {
+  position: relative;
+
+  width: 100%;
+  height: 650px;
+
+  background-image: url("./assets/landing-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.main-header-content {
+  position: relative;
+  
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+
+  z-index: 1;
+}
+
+.main-header-heading {
+  width: 560px;
+
+  font-size: 72px;
+  font-weight: 600;
+}
+
+.main-header-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+  
+  background-color: #fff;
+  opacity: 0.5;
+}
+
+/* REPUTATION SECTION */
+
+
+.our-reputation-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  gap: 50px;
+}
+
+.section-heading-h2 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.reputation-tiles {
+  width: 100%;
+  
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  grid-template-rows: auto;
+  justify-content: center;
+  
+  gap: 50px;
+}
+
+.reputation-tile {
+  width: 300px;
+  padding: 20px;
+
+  border: 1px solid #e0e3eb;
+  border-radius: 4px;
+
+  display: flex;
+  flex-direction: column;
+  
+  gap: 18px;
+}
+
+.tile-heading {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.tile-description {
+  font-size: 16px;
+  font-weight: #858ead;
+}
+
+/* OTHER */
+
+
+/* .section {
+  display: flex;
+  justify-content: center;
+  background-color: lightgrey;
+} */
+
+/* .boxes {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  justify-content: center;
+  
+  gap: 50px;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+}
+
+.red {
+  background-color: red;
+}
+
